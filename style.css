@@ -1,0 +1,27 @@
+
+header{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.5rem;
+    margin-left: 200px;
+    padding: 20px;
+    border-color: black;
+}
+img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.Home,.About,.Contact{
+    background-color: rgb(133, 133, 237);
+    border-radius: 5px;    
+    }
